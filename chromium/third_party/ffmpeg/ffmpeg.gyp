@@ -18,6 +18,7 @@
 {
   'variables': {
     'use_system_ffmpeg%': 0,
+    'ffmpeg_branding%':"Chrome",
   },
   'conditions' : [
     ['use_system_ffmpeg == 0', {
