@@ -25,7 +25,7 @@ namespace content {
 namespace {
 
 // Default allocation size.
-const size_t kAllocationSize = 4 * 1024 * 1024;
+const size_t kAllocationSize = 10 * 1024 * 1024;
 
 // Global atomic to generate unique discardable shared memory IDs.
 base::StaticAtomicSequenceNumber g_next_discardable_shared_memory_id;
